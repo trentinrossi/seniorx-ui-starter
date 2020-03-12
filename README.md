@@ -5,18 +5,19 @@ Este projeto tem o objetivo de fornecer uma versão inicial já configurada para
 - Utiliza as bibliotecas da Senior, assim como os componentes do PrimeNG
 
 ## Instruções de instalação
-- Realizar um **clone** deste projeto
+Realizar um **clone** deste projeto, exemplo:
 ```
 git clone https://github.com/trentinrossi/seniorx-ui-starter.git nome-do-meu-projeto
 ```
 
-- Abrir a pasta do projeto pelo VSCode e digitar o comando na pasta raiz
+Abrir a pasta do projeto pelo VSCode e digitar o comando na pasta raiz:
 ```
 npm install
 ```
 Esse comando vai instalar todas as dependências necessárias para execução do projeto
 
-- Por ultimo basta iniciar a aplicação usando o comando
+
+Por ultimo basta iniciar a aplicação usando o comando
 ```
 npm start
 ```
@@ -34,5 +35,4 @@ npm start
 ### Acessando sua aplicação integrada com a Senior-X
 - Realizar o login na plataforma
 - Em uma nova aba, digitar o endereço https://localhost.senior.com.br:4200
-- Agora sua aplicação está preparada para trocar informações com a SeniorX
-
+- Agora sua aplicação está preparada para trocar informações com a SeniorX.
