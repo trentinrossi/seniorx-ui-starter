@@ -21,8 +21,6 @@ Esse comando vai instalar todas as dependências necessárias para execução do
 npm start
 ```
 
-asdasdsadsa
-
 - Será então iniciado o servidor node.js respondendo na porta padrão 4200 https://localhost:4200
 
 - Para que seja possível trocar informações com a plataforma, uma configuração deve ser realizada para que o CORS não bloqueie as chamadas nas API's da SeniorX
