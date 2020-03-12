@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "children": [
+      {
+        "id": "res://senior.com.br/menu/custom/menu/seniorx-ui-starter",
+        "label": "Deixe sua mensagem",
+        "labelI18n": "platform.backend.modulo_favoritos_seniorxuistarter",
+        "itemIcon": "fa-clock-o",
+        "path": {
+          "withCredentials": true,
+          "category": "CurrentTab",
+          "menuId": "https://URL-HOST/seniorx-ui-starter"
+        }
+      }
+    ]
+  }
+}

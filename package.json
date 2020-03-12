@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --disable-host-check --host 0.0.0.0 --ssl true",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -12,6 +12,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
+    "@angular/cdk": "^8.2.3",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
     "@angular/core": "~8.2.14",
@@ -19,8 +20,21 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@seniorsistemas/angular-components": "^12.5.3",
+    "@seniorsistemas/primeng-theme": "^6.3.2",
+    "@seniorsistemas/senior-platform-data": "^3.0.0",
+    "angular2-hotkeys": "^2.2.0",
+    "core-js": "^3.6.4",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.24.0",
+    "ng2-currency-mask": "^5.3.1",
+    "primeicons": "^2.0.0",
+    "primeng": "^8.1.1",
     "rxjs": "~6.4.0",
+    "rxjs-compat": "^6.5.4",
+    "tsickle": "^0.38.1",
     "tslib": "^1.10.0",
+    "web-animations-js": "^2.3.2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

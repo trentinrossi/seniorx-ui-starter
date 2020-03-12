@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i");
+@import "~primeng/resources/primeng.min.css";
+@import "~@seniorsistemas/primeng-theme/dist/theme.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+body .ui-button:not(.ui-button-icon-only) .ui-button-icon-left,
+body .ui-button:not(.ui-button-icon-only) .ui-button-icon-right {
+  display: block;
+}
