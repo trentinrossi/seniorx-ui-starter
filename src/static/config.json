@@ -3,7 +3,7 @@
     "children": [
       {
         "id": "res://senior.com.br/menu/custom/menu/seniorx-ui-starter",
-        "label": "Deixe sua mensagem",
+        "label": "Nome que vai aparecer no menu",
         "labelI18n": "platform.backend.modulo_favoritos_seniorxuistarter",
         "itemIcon": "fa-clock-o",
         "path": {
