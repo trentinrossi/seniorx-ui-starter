@@ -36,3 +36,14 @@ npm start
 - Realizar o login na plataforma
 - Em uma nova aba, digitar o endereço https://localhost.senior.com.br:4200
 - Agora sua aplicação está preparada para trocar informações com a SeniorX.
+
+### Realizar o build conforme os ambientes
+- Ambiente de Produção
+``` 
+ng build --prod
+```
+
+- Ambiente de Homologação
+``` 
+ng build --configuration=homologation
+```
