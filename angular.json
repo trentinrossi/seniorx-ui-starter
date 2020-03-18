@@ -101,7 +101,7 @@
               "browserTarget": "seniorx-ui-starter:build:production"
             },
             "homologation": {
-              "browserTarget": "deixe-sua-mensagem:build:homologation"
+              "browserTarget": "seniorx-ui-starter:build:homologation"
             }
           }
         },
