@@ -1,0 +1,35 @@
+<div style="margin-bottom: 20px"></div>
+
+<p-messages></p-messages>
+
+<div class="ui-g">
+    <p-panel class="ui-g-12 ui-fluid">
+        <p-header>
+            {{ "Painel exemplo" }}
+        </p-header>
+
+        <div class="ui-g">
+
+            <div class="ui-g-12 ui-md-6 ui-lg-6 required">
+                <label for="">Input de exemplo</label>
+                <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-6 ui-lg-6">
+                <label for="">Dropdown de exemplo</label>
+                <p-dropdown placeholder="Selecione" required="true">
+                </p-dropdown>
+            </div>
+
+        </div>
+
+        <p-footer>
+            <div class="ui-g">
+                <div class="ui-g-12 ui-md-3 ui-lg-2">
+                    <button pButton type="button" label="Enviar mensagem" icon="fa fa-paper-plane">
+                    </button>
+                </div>
+            </div>
+        </p-footer>
+    </p-panel>
+</div>
