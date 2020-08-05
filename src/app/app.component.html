@@ -1,1 +1,4 @@
-<router-outlet></router-outlet>
+<s-analytics-header [employees]="activeEmployees"></s-analytics-header>
+<s-loading-state [loading]="pageLoading" [blockWindow]="true">
+  <router-outlet></router-outlet>
+</s-loading-state>
