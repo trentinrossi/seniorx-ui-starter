@@ -7,14 +7,16 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ToastModule } from 'primeng/toast';
 
 import {
   AnalyticsHeaderModule,
-  BreadcrumbModule,
+  // BreadcrumbModule,
   ErrorPageModule,
   GoogleAnalyticsModule,
   RedirectPageModule
 } from '@senior-gestao-pessoas/angular-components';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { LoadingStateModule, LocaleModule } from '@seniorsistemas/angular-components';
 import { RestUrl, TranslationsModule } from '@seniorsistemas/platform-components';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -35,6 +37,8 @@ registerLocaleData(ptBr);
     HttpClientModule,
     AnalyticsHeaderModule,
     LoadingStateModule,
+    BreadcrumbModule,
+    ToastModule,
 
     TranslateModule.forRoot(),
     TranslationsModule.forRoot([

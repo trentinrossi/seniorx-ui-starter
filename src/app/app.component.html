@@ -1,4 +1,11 @@
 <s-analytics-header [employees]="activeEmployees"></s-analytics-header>
 <s-loading-state [loading]="pageLoading" [blockWindow]="true">
-  <router-outlet></router-outlet>
+  <div class="sds-container" id="page-content">
+    <h1 class="sds-page-title">
+      <span id="sds-page-title">SeniorX UI - Starter</span>
+    </h1>
+    <p-breadcrumb [model]="items" [home]="home">
+    </p-breadcrumb>
+    <router-outlet></router-outlet>
+  </div>
 </s-loading-state>
